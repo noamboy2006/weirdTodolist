@@ -1,0 +1,28 @@
+{
+  "name": "weirdtodolist",
+  "version": "1.0.0",
+  "description": "An weird todolist for korean students who are slaves of study.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noamboy2006/weirdTodolist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noamboy2006/weirdTodolist/issues"
+  },
+  "homepage": "https://github.com/noamboy2006/weirdTodolist#readme",
+  "devDependencies": {
+    "electron": "^9.0.4",
+    "eslint": "^7.3.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

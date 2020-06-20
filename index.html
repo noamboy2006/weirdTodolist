@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <div class='card' id='tests'>
+    <div class='cardTitle'>
+      <div>예정된 평가</div>
+      <div class='addbutton' onclick='add("tests")'>+ add</div>
+    </div>
+    <div class='border'></div>
+    <table class='cardlist'>
+      <tr>
+        <th>name</th>
+        <th>subject</th>
+        <th>day(days left)</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+        <td class='noborder' onclick='clear("tests",0)'>❌</td>
+      </tr>
+    </table>
+  </div>
+  <script src="./src/front.js"></script>
+</body>
+</html>
